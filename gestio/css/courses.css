@@ -1,0 +1,133 @@
+.sous1{
+    display: none;
+}
+.menu > li:active ul{
+    display: block;
+}
+.BoiteUE1 p:first-of-type{
+    font-weight: bold;
+}
+.BoiteUE1 p a{
+    color: #000;
+}
+
+.semestre{
+    display: flex;
+    flex-direction: column;
+}
+.semestre a{
+    text-decoration: none;
+    color: #000;
+}
+.box-bar-cour{
+    border: 1px solid rgba(0, 0, 0, 0.062);
+    border-left: 8px solid rgba(76, 39, 136, 0.9);
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.034);
+    /* box-shadow: 0px 0px 2px rgba(128, 128, 128, 0.767); */
+}
+.box-bar-cour-tete{
+    border: 1px solid rgba(0, 0, 0, 0.062);
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.034);
+    /* box-shadow: 0px 0px 2px rgba(128, 128, 128, 0.767); */
+}
+.numSemestre{
+    margin-bottom: 5px;
+    background-color:  rgba(76, 39, 136, 0.9);
+    border-radius: 4px 4px 4px 4px;
+    color: white;
+}
+.numSemestre a{
+    color: whitesmoke;
+}
+.angleBas1{
+    margin-top: 0.3em;
+    float: right;
+    color: white;
+    margin-top: -2.3em;
+    margin-right: 0.7em;
+}
+.angleBas{
+    margin-top: 0.3em;
+    float: right;
+}
+.BoiteUE i{
+    color: rgba(76, 39, 136, 0.9);
+}
+.BoiteUE i:hover{
+    color: rgba(255, 0, 0, 0.6);
+}
+.boiteSemestre{
+    width: 100%;
+}
+.boiteMatiere{
+    margin-top: -8.3px;
+    padding-top: 5px;
+    margin-bottom: 3px;
+    border-radius: 0px 0px 4px 4px;
+}
+.BoiteUE p{
+    text-decoration: none;
+    color: #000;
+    width: 99%;
+    margin: 5px 5px 5px 5px;
+    height: 2.8em;
+    padding: 10px;
+    border: 1.5px solid gray;
+    border-radius: 4px;
+}
+
+
+
+.list-cours{
+}
+.box-cour{
+    padding: 10px;
+    display: flex;
+}
+.name-dat{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 8px 0;
+    padding: 0 12px 0 0;
+    font-weight: bold;
+    float: right;
+}
+
+.matiere{
+    background-color: rgb(31, 93, 143);
+    color: #fff;
+    
+}
+.descriptionEtTelechargement{
+    display: flex;
+}
+.description_cour{
+    width: 90%;
+    padding-top: 0.5em;
+    text-align: justify;
+}
+.suppr-mod{
+    width: 100px;
+    padding: 20px; 
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+}
+.suppr-mod a{
+    font-size: 20px;
+    display: flex;
+    padding-top: 5px;
+    color: whitesmoke;
+    border: none;
+    border-radius: 3px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+    background-color: rgb(31, 93, 143);
+}
+.suppr-mod a i{
+    height: 1.5em;
+
+}

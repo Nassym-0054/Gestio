@@ -1,0 +1,108 @@
+.boitePub{
+    width: 75%;
+    height: 24.5em;
+    margin: auto;
+    border: 1px solid rgb(192, 188, 188);
+    border-radius: 4px;
+    padding: 1.5em;
+    display: block;
+    /*background-color: red;*/
+}
+ .boitePub textarea{
+    width: 100%;
+    margin-left: 5px;
+}
+.boitePub input{
+    width: 90%;
+    margin-left: 35px;
+}
+.boite1{
+    width: 100%;
+}
+
+.lien{
+    margin-right: 2em;
+  
+}
+
+.lien p {
+   display: flex;
+}
+.lien2{
+    height: 8em;
+}
+.lien2 p{
+    display: block;
+  }
+
+.lien2 label{
+  position: relative;
+  left:40px;
+}
+.lien2 input[type="submit"]{
+    position: relative;
+    right: 35px;
+}
+.boitePub2 {
+    height: 15em;
+}
+/*.zoneDeTexte{
+    width: 90%;
+}
+.zoneDeTexte textarea{
+    /*border-radius: 4px;
+    padding: 0.5em;
+    margin-top: 10px;
+}
+.zoneDeTexte input,textarea{
+    border-radius: 4px;
+    border: none;
+}
+.zoneDeTexte input{
+    padding: 0.4em;
+}
+.shadowZone{
+    display: none;
+}*/
+/*.boite1{
+    display: flex;
+}*/
+.envoyer{
+    width: 100%;
+    margin-top: 0.5em;
+    /*float: right;*/
+
+}
+.envoyer input{
+    float: right;
+    width: 7em;
+    color: white;
+    background-color: rgba(76, 39, 136, 0.9);
+    border: none;
+    border-radius: 4px;
+    padding: 4px 4px ;
+}
+.envoyer input:hover{
+    box-shadow: silver 2px 2px 6px;
+}
+
+.lien p:first-of-type{
+    margin-top: 5px;
+}
+
+@media (max-width:528px){
+
+    .lien input{
+       width:70%;
+    }
+   /* .zoneDeTexte{
+        width: 100%;
+        display: none;
+    }
+    .shadowZone{
+        display: block;
+    }*/
+}
+.padtxt{
+    padding: 0.3em;
+}

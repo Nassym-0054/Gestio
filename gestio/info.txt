@@ -1,0 +1,37 @@
+Voila le comment gerer le design des pages
+FINISSEZ DE LIRE CECI ET DE COMPRENDRE AVANT DE VOUS METTRE AU TRAVAIL, auquel cas votre travail sera tres inegal a celui dejà effectué.
+
+La page principal est celle ci( http://localhost/gestio/main.php ) , elle ne change pas c'est le $_GET['id] qui se chargera de changer
+les pages (include) selon sa valeur, alors n'essayer pas d'afficher http://localhost/gestio/home.php par exemple, ce serait non-productif
+
+/** PROCESSUS CREATION DE PAGE & DESIGN DE PAGE **/
+
+-   Allez dans main.php , allez tout en bas puis enlever les "//" devant le "include" que vous voulez modifier (la page que vous voulez creer)
+        ex:     <?php include('lapage.php'); ?>
+-   Creer (si je ne l'ai pas dejà fait dans le dossier php) le fichier php ayant le même nom que le fichier php du "include" debloquer plus haut (voit main.php)    
+        ex: php/mapage.php (php est un dosser ici)
+-   La page vierge(selon le cas) va apparaitre si vous rafraichissez le navigateur.
+-   Creer le fichier css dans le dossier css
+        ex: css/mapage.css
+-   Ajouter ceci au tout debut de la page mapage.php
+        <style>
+            @import url("css/mapage.css");
+        </style>
+-   Vous pouvez commencez à traiter la page mapage.php tout en la stylisant avec mapage.css
+
+NOTE BIEN CECI:
+-   Il y a un fichier css appele framework.css
+    il s'agit d'un framework visant à faciliter le travail de design
+    ex: si vous voulez creer une boite stylé (semblable aux autres)
+        ajouter la classe "box" ou "box-bar"(si vous voulez la barre sur le coté gauche et haut-bas pour box-bar-top-bottom) 
+        si vous voulez appliquer des modifs specifiques sur vos boites, ajouter votre classe comme ceci:
+        <div class="box-bar votreclasse">   contenu   </div>
+
+- Si c'est nécessaire pour la beauté je vous prie d'ajouter un padding0 10px ou 8px sur votre boite (en utilisant votre classe)
+
+- NE TOUCHEZ PAS AU FICHIER framework.css
+
+- Pour les boutons vous pouvez utiliser les classes bt-red ou bt-blue suivant le fichier framework.css
+
+    /*** J'ESPERE QUE J'AI ETE CLAIR, TOUT CELA EST NECESSAIRE POUR DU TRAVAIL EFFICACE ***/
+            VEUILLEZ SUIVRE MES INSTRUCTIONS

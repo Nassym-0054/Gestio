@@ -1,0 +1,10 @@
+.main-dashboard{
+    padding: 1em;
+    margin: initial;
+}
+
+.primary{
+    display: flex;
+    justify-content: space-between;
+}
+

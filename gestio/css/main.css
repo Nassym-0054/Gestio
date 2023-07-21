@@ -1,0 +1,315 @@
+@import "main-dashboard.css";
+@import '';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+
+}
+
+a:focus {
+    outline: none;
+    /*enlever les pointiler du lien losque clic*/
+}
+
+a:hover {
+    text-decoration: none;
+    /*enlever soulignement lorsque survole*/
+}
+
+body {
+    /* background-color: rgb(236, 236, 236); */
+    background: linear-gradient(to right, rgba(69, 54, 121, 0.8), rgba(188, 28, 72, 0.8)), url('../img/back_first.jpg') no-repeat center;
+    /*background-color: rgb(13, 39, 59);*/
+    font-family: ebrima, sans-serif;
+    /*overflow-y: hidden;*/
+}
+
+.main-wrap {
+    background-color: whitesmoke;
+    width: 98%;
+    height: 100vh;
+    margin: 15px auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.top-nav {
+    width: 100%;
+    display: flex;
+}
+
+.top-nav .logo {
+
+    padding: 1em 0;
+    width: 250px;
+    /*background:linear-gradient(to top,rgb(46, 6, 110),rgb(190, 38, 196));*/
+    background-color: rgb(190, 38, 196);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*border-bottom:2px solid rgb(220, 232, 255);*/
+
+}
+
+.top-nav .logo i {
+    font-size: 3em;
+    color: rgb(220, 232, 255);
+    margin-right: 4px;
+}
+
+.top-nav .logo span {
+    font-size: 2em;
+    color: rgb(220, 232, 255);
+    letter-spacing: 2px;
+}
+
+.top-nav .user-nav {
+    flex: 1;
+    background-color: rgb(236, 231, 231);
+}
+
+/*Debut corrigé par Redfox 24/06/20*/
+.user-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.user-nav .pt img {
+    width: 100%;
+    height: 100%;
+
+    border: none;
+    border-radius: 4px;
+}
+
+.user-nav .pt {
+    width: 50px;
+    height: 50px;
+    margin-left: 1em;
+}
+
+.user-box {
+    display: flex;
+    /*background-color: red;*/
+}
+
+.u-name-grade {
+    display: block;
+    position: relative;
+    left: -0.5em;
+    height: 3.1em;
+    margin: 0 1em;
+    /*background-color: blue;*/
+}
+
+/*Fin correction*/
+.u-name-grade p:last-of-type {
+    margin-top: -1em;
+}
+
+.user-nav .log {
+    display: flex;
+    align-items: center;
+}
+
+.user-nav .log .burger {
+    font-size: 2.5em;
+    display: none;
+}
+
+.user-nav .logout {
+    display: flex;
+    margin: 0 1em;
+}
+
+.user-nav .log .logout i {
+    font-size: 20px;
+    line-height: 25px;
+    margin-right: 5px;
+}
+
+.core {
+    flex: 1;
+    width: 100%;
+    background-color: white;
+    display: flex;
+}
+
+.core .left-nav {
+    width: 250px;
+    /*background-color: rgb(16, 50, 77);*/
+    background: linear-gradient(to top, rgb(46, 6, 110), rgb(190, 38, 196));
+    /* background:linear-gradient(to bottom,rgb(31, 93, 143),rgb(13, 39, 59)) */
+    box-shadow: inset 0px 0px 10px rgba(77, 75, 75, 0.301);
+    overflow-y: hidden;
+
+}
+
+.left-nav {
+
+    padding: 20px 0 0 0;
+}
+
+.left-nav ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.left-nav li a {
+    display: flex;
+    color: whitesmoke;
+    align-items: center;
+    text-decoration: none;
+    padding: 15px 15px 15px 25px;
+}
+
+.left-nav li a:hover {
+    background-color: rgba(255, 255, 255, 0.082);
+}
+
+.left-nav ul li a i {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+
+.core .main-page {
+    flex: 1;
+    box-shadow: inset 0px 0px 10px rgba(128, 128, 128, 0.301);
+    background-color: rgb(236, 231, 231);
+    /*height: 35em;
+    overflow: hidden;
+    overflow-y: scroll;*/
+    overflow-y: hidden;
+}
+
+.menuDeroulant {
+    display: none;
+}
+
+@media (max-width:828px) {
+
+    .main-wrap {
+        width: initial;
+        margin: initial;
+    }
+
+    .left-nav {
+        display: none;
+    }
+
+    .top-nav .logo {
+        justify-content: initial;
+        padding-left: 1em;
+    }
+
+    .top-nav .user-nav {
+        /*background-color: rgb(31, 93, 143);*/
+        background: linear-gradient(to left, rgb(46, 6, 110), rgb(190, 38, 196));
+    }
+
+    .top-nav .user-nav .log .burger {
+        color: rgb(220, 232, 255);
+    }
+
+    .user-nav .user-box .pt,
+    .user-nav .user-box .u-name-grade,
+    .user-nav .log .logout {
+        display: none;
+    }
+
+    .user-nav .log .burger {
+        display: initial;
+        /*Faire apparaitre le menu a trois barres*/
+        margin: 0 20px;
+    }
+
+    .logoUniversite {
+        display: none;
+    }
+
+    .menuDeroulant {
+        display: flex;
+        position: relative;
+        width: 95%;
+        height: auto;
+        /*background-color: red;*/
+        margin: 0 auto;
+        border-radius: 4px;
+        /*border: 1px solid rgb(73, 70, 70);*/
+        background-color: #fff;
+    }
+
+    .menuDeroulant a {
+        color: black;
+    }
+
+    .lot1 {
+        width: 50%;
+        /*background-color: burlywood;*/
+        padding-left: 2em;
+        padding-top: 1em;
+    }
+
+    .lot2 {
+        width: 50%;
+        /*background-color: cornflowerblue;*/
+        padding-left: 2em;
+        padding-top: 1em;
+    }
+
+    .menuDeroulant p {
+        padding: 0.5em;
+        background-color: rgb(236, 231, 231);
+        width: 85%;
+        border-radius: 4px;
+    }
+
+    .menuDeroulant a:hover {
+        color: linear-gradient(to left, rgb(190, 38, 196), rgb(46, 6, 110));
+        text-decoration: none;
+    }
+}
+
+.choice {
+    left: 0px;
+    right: 0px;
+    margin-top: 40px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.deco-gene {
+    border: 2px solid black;
+    width: 50%;
+    margin-left: 25%;
+    padding-bottom: 30px;
+    margin-top: 15%;
+    box-shadow: 5px 7px 10px;
+}
+
+.choicenote1 .choice {
+    padding: 5px;
+    background-color: rgb(69, 68, 71);
+    color: whitesmoke;
+}
+
+.logoUniversite {
+    width: 5em;
+    height: 4em;
+    /*background-color: blue;*/
+    margin-right: 0.5em;
+}
+
+.logoUniversite img {
+    max-width: 5em;
+    max-height: 5em;
+}

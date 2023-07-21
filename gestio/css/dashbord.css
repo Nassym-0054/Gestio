@@ -1,0 +1,303 @@
+.boite2 {
+    border: 1px solid rgba(0, 0, 0, 0.062);
+    border-left: 8px solid rgba(76, 39, 136, 0.9);
+    border-radius: 4px;
+    background-color: white;
+    max-width: 23em;
+    width: 23em;
+    /*width: 17em;*/
+    padding-top: 1.5em;
+    padding-bottom: 0.5em;
+    padding-left: 0.8em;
+    padding-right: 0.8em;
+    margin-bottom: 0.8em;
+    height: 5em;
+}
+
+.boiteS2 {
+    width: 42em;
+    height: 21em;
+    background-image: url('../img/stat.png');
+    background-repeat: no-repeat;
+}
+
+.boite2 i {
+    float: right;
+    position: relative;
+    top: 0.2em;
+    color: rgb(145, 141, 141);
+}
+
+.boite2 p {
+    font-size: 1em;
+}
+
+.boite a {
+    color: black;
+}
+
+.boite2:hover {
+    background-color: rgb(236, 231, 231);
+}
+
+.boite a:hover {
+    text-decoration: none;
+}
+
+.contenant {
+    display: flex;
+    /*border: 0.1px solid black;*/
+    border-radius: 10px;
+    /*box-shadow: 3px 3px 6px black;*/
+    /*padding: 2em;*/
+    margin: 5%;
+    margin-left: 4em;
+    justify-content: space-between;
+}
+
+.boite {
+    margin-right: 1em;
+    width: 50%;
+
+}
+
+/*mise en forme visite.php*/
+.ettiquette {
+    width: 90%;
+    height: 2em;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    border-bottom: solid 1px white;
+    color: white;
+}
+
+.ettiquette div:last-of-type {
+    margin-right: 0px;
+}
+
+.etti {
+    width: 22.5%;
+    margin-right: 1px;
+    background-color: rgb(90, 47, 158);
+}
+
+.nbrconnect {
+    width: 90%;
+    height: 5em;
+    display: flex;
+    margin: auto;
+    color: white;
+    border-bottom: solid 1px white;
+}
+
+.nbr {
+    width: 22.5%;
+    margin-right: 1px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(202, 164, 238);
+}
+
+.nbrconnect div:last-of-type {
+    margin-right: 0px;
+    padding-top: 1em;
+}
+
+.nbrconnect div:first-of-type {
+    background-color: rgb(90, 47, 158);
+}
+
+.nbre {
+    padding-top: 1.5em;
+}
+
+.connectTime {
+    width: 90%;
+    height: 5em;
+    display: flex;
+    margin: auto;
+    color: white;
+    border-bottom: solid 1px white;
+}
+
+.time {
+    width: 22.5%;
+    margin-right: 1px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(202, 164, 238);
+}
+
+.connectTime div:last-of-type {
+    margin-right: 0px;
+}
+
+.connectTime div:first-of-type {
+    background-color: rgb(90, 47, 158);
+}
+
+.stat {
+    font-size: 1.5em;
+    border-bottom: 5px solid rgb(52, 10, 92);
+}
+
+/*mise en forme cours.php*/
+
+.ettiquet {
+    width: 90%;
+    height: 2em;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    border-bottom: solid 1px white;
+    color: white;
+}
+
+.ettiquet div:last-of-type {
+    margin-right: 0px;
+}
+
+.ettiq {
+    width: 33.33%;
+    margin-right: 1px;
+    background-color: rgb(90, 47, 158);
+}
+
+.nbrconnecte {
+    width: 90%;
+    height: 5em;
+    display: flex;
+    margin: auto;
+    color: white;
+    border-bottom: solid 1px white;
+}
+
+.nbres {
+    width: 33.33%;
+    margin-right: 1px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(202, 164, 238);
+}
+
+.nbrconnecte div:last-of-type {
+    margin-right: 0px;
+    padding-top: 1em;
+}
+
+.nbre {
+    padding-top: 1.5em;
+}
+
+.connecteTime {
+    width: 90%;
+    height: 5em;
+    display: flex;
+    margin: auto;
+    color: white;
+}
+
+.time {
+    width: 33.33%;
+    margin-right: 1px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(202, 164, 238);
+}
+
+.connecteTime div:last-of-type {
+    margin-right: 0px;
+}
+
+.connecteTime div:first-of-type {
+    background-color: rgb(90, 47, 158);
+}
+
+.hist {
+    font-size: 1.5em;
+    border-bottom: 5px solid rgb(52, 10, 92);
+}
+
+/*mise en fdorme de personnalisation.php*/
+.custom-box {
+    width: 100%;
+    min-height: 30em;
+    padding: 1em;
+    margin: auto;
+    border: solid 1px gray;
+}
+
+.fileSelector1 {
+    background-color: white;
+    padding: 0.3em;
+    width: 18em;
+    margin-left: 1.5em;
+    border-radius: 4px;
+    border: none;
+}
+
+.fileSelector2 {
+    background-color: white;
+    padding: 0.3em;
+    width: 18em;
+    margin-left: 1.5em;
+    border-radius: 4px;
+    border: none;
+    margin-top: 0.2em;
+}
+
+.yogot2 {
+    width: 18em;
+    margin-left: 6em;
+    border-radius: 4px;
+    border: none;
+    padding: 0.3em;
+}
+
+.yogot1 {
+    width: 18em;
+    margin-left: 3.7em;
+
+    border-radius: 4px;
+    border: none;
+    padding: 0.3em;
+}
+
+/*une autre partie*/
+.firstB {
+    display: inline-block;
+}
+
+.boite2 .boiteS2 {
+    /*float: left;
+    display: inline;*/
+
+}
+
+@media (max-width:500px) {
+    .boite2 {
+        width: 25px;
+        margin-top: 25px;
+    }
+
+    .firstB {
+        margin-left: 0px;
+    }
+
+    .boite {
+        height: 4em;
+
+    }
+
+    .contenant {
+        flex-direction: column;
+
+    }
+}
+
+@media (max-width:1024px) {
+    .boite2 {
+        width: 16em;
+    }
+}

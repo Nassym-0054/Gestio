@@ -1,0 +1,187 @@
+
+.mainEtu{
+    display: flex
+}
+.menu{
+    height: auto;
+    width: 4em;
+    flex-direction: column;
+    /*border: 1px solid grey;
+    border-radius: 4px;*/
+}
+.menu a{
+    margin-right: 1em;
+    width: 100%;
+}
+.optionMenu{
+    height: auto; /*3em*/
+    width: 3em;
+    background-color: rgba(69,54,121,0.9);
+    text-align: center;
+    padding: 0.6em;
+    color: white;
+    border-radius: 4px;
+}
+.confIcon{
+    height: 1em;
+}
+.optionMenu:hover{
+    background-color: rgba(69,54,121,0.7);
+    color: black;
+}
+.menu a:last-of-type{
+    margin-right: 0em;  
+}
+.menu a:hover{
+    text-decoration: none;  
+}
+.corpDePage{
+    height: auto;
+    width: 99%;
+    border: 1px solid rgb(180, 177, 177);
+    border-radius: 4px;
+    padding-top: 1em;
+    
+}
+.boiteEnr1{
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, .28);
+    border-radius: 4px;
+    width: 70%;
+    height: auto; /*????*/
+    margin: auto;
+}
+h1{
+    font-size: 1.5em;
+    margin-left: 15%;
+}
+.entree, select{
+    background-color: white;
+    width: 80%;
+    margin-top: 1em;
+    margin-left: 10%;
+    padding: 0.3em;
+    border: none;
+    border-radius: 4px;
+    
+}
+.radio{
+    margin-left: 10%;
+    margin-top: 0.5em;
+}
+.radio label{
+    margin-right: 1em;
+}
+.bouton{
+    background-color: rgba(69,54,121,0.9);
+    border: none;
+    padding: 0.4em;
+    border-radius: 4px;
+    float: right;
+    color: white;
+    width: 10em;
+}
+.bt{
+    position: relative;
+    top: 27%;
+    right: 11%;
+    
+    
+}
+.send{
+    width: 70%;
+    height: auto; /*????*/
+    margin: auto;
+}
+.bouton:hover{
+    background-color: rgba(69,54,121,0.7);
+    color: black;
+}
+.boiteRecherche{
+    border: 1px solid rgb(194, 191, 191);
+    padding: 0.4em;
+    border-radius: 4px;
+    width: 20em;
+    padding-right: 2em;
+}
+.boiteR button{
+    background: none;
+    border: none;
+    position: relative;
+    right: 2em;
+}
+.boiteR{
+    padding-left: 1em;
+    padding-right: 0em;
+}
+.boiteR span:last-of-type{
+    float: right;
+}
+.boiteR p{
+    font-size: 1em;
+}
+.emptyResult{
+    height: 12em;
+    padding-left: 40%;
+}
+.emptyResult p{
+    color: rgb(61, 60, 60);
+    font-size: 2em;
+    /*background-color: rgb(158, 127, 127);*/
+    width: 8em;
+    margin-top: 5em;
+    text-align: center;
+}
+.mod{
+    position: relative;
+    left: 1.5em;
+}
+.boiteNotes{
+    padding-left: 1em;
+    padding-right: 1em;
+}
+.primary{
+    display: none;
+}
+.mybar{
+    display: none;
+}
+.blockDelete{
+    height: 3em;
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, .28);
+    padding: 0.4em;
+    padding-left: 2em;
+    padding-right: 2.5em;
+    border-radius: 5px;
+    width: 93%;
+    margin: auto;
+}
+.blockDelete .bouton{
+    position: relative;
+    bottom: 0.1em;
+}
+.blockDelete span{
+    font-weight: bold;
+    position: relative;
+    top: 0.3em;
+}
+#h3{
+    margin:3px auto;
+    width: 37%;
+}
+@media (max-width:918px){
+    .indicatif1{
+        display: none;
+    }
+    .boiteR span:last-of-type{
+        float: left;
+    }
+}
+.one-i, .two-i, .three-i{
+    display: inline-block;
+}
+.three-i, .two-i{
+    float: right;
+}
+.two-i{
+    margin-left: 0.2em;
+}

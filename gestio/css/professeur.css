@@ -1,0 +1,125 @@
+h3
+{
+    border-bottom: 4px solid rgba(69,54,121,0.9);
+}
+.info-prof
+{
+    text-align : center;
+}
+.tableau
+{
+    text-align: center;
+}
+table
+{
+    border-collapse : collapse;
+    margin: auto;
+}
+td
+{
+    padding : 10px 20px 10px 20px;
+}
+th
+{
+    padding : 10px 20px 10px 20px;
+    background-color: rgb(219, 214, 214);
+}
+tr:nth-child(even)
+{
+    background-color : rgb(219, 201, 238);
+}
+a
+{
+    text-decoration: none;
+}
+a
+{
+    text-decoration: none;
+}
+a:hover
+{
+    text-decoration: none;
+    color : black
+}
+.add-prof
+{
+    background-color: rgba(69,54,121,0.9);
+    padding: 8px;
+    color : white;
+    margin-left: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 4px;
+}
+
+/*mise en forme de formulaire d'ajout et de modification de proff | by Jeff | mod by Redfox 03/07/20 18:08*/
+/*  @import url('css/professeur.css');  */
+.title
+{
+    font-size : 30px;
+}
+.title-info
+{
+    font-size : 30px;
+    text-align : center;
+}
+.form-ajout
+{
+    display: block;
+    margin : auto;
+    width : 80%;
+    padding : 10px 60px 60px 10px;
+    background-color : white;
+}
+.blocky
+{
+    display : flex;
+}
+.blocky1
+{
+    width : 30%;
+    padding-top: 23px;
+    margin : auto;
+}
+.name
+{
+    padding-top : 8px;
+}
+.blocky2
+{
+    width : 55%;
+    padding-top: 0.5em;
+}
+input
+{
+    width : 80%;
+    margin-top: 20px;
+    border: 1px solid gray;
+    border-radius : 4px;
+    padding-left : 10px;
+    padding: 0.3em;
+}
+.sub-button
+{
+    border-radius : 4px;
+    width : 20%;
+    margin-left : 50%;
+    padding : 0.3em;
+    background-color: rgba(69,54,121,0.9);
+    color: white;
+    position: relative;
+    left: 19%;
+}
+.sub-button:hover
+{
+    background-color: rgba(69,54,121,0.7);
+    color: black;
+}
+/*fin de mise en forme*/
+.sup-mod{
+    border: none;
+    background: none;
+    padding-right: 1em;
+}
+.tableau tr td:last-of-type{
+    padding-left: 0;
+}

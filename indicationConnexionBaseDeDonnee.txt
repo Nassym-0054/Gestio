@@ -1,0 +1,10 @@
+Dans l'optique de centralisation de la connexion à notre base de donnée pour les different traitements, un seul fichier nommé connexionDataBase.php a été crée et inclus à plusieurs endroit du code. Il se trouve dans le dossier gestio. Son contenu est le suivant.
+------------------------------------------------------------------------------------------
+<?php
+  $serveur = "localhost";
+  $login = "root";
+  $passwd = "";
+  $bdd = new PDO("mysql:host=$serveur;dbname=gestioDB",$login,$passwd);
+  $bdd -> setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+?>
+------------------------------------------------------------------------------------------

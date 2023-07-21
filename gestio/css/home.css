@@ -1,0 +1,200 @@
+.box-news{
+    height: auto;
+    max-height: 100px;
+    margin-bottom: 1em;
+    display: flex;
+}
+.box-news:last-child{
+    margin: initial;
+}
+.list-news .box-news img{
+    width:100px;
+    max-height: 100px;
+}
+.box-news .news{
+    flex: 1;
+    padding: 8px;
+}
+.box-news .news .news-deposit{
+    display: flex;
+    justify-content: space-between;
+}
+.box-news .suppr-mod{
+    padding: 8px;
+}
+.box-news .suppr-mod a{
+    font-size: 20px;
+    display: flex;
+    padding: 5px;
+    color: whitesmoke;
+    border: none;
+    border-radius: 3px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(197, 39, 39);
+}
+.box-news .suppr-mod a:first-child{
+    margin-bottom: 8px;
+    background-color: rgb(31, 93, 143);
+}
+
+/*new by Redfox 23/06/20*/
+.Acceuil1{
+    text-decoration: none;
+    color: #000;
+    width: 99%;
+    margin: 5px 5px 5px 5px;
+    height: 28em;
+    padding: 10px;
+    border-radius: 4px;
+    /*background-image: url("../img/equipeGestio.jpg");*/
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.IdUniversite{
+    display: flex;
+    width: 40%;
+    margin-left: 33%;
+    margin-top: 8em;
+}
+@media (max-width:628px){
+    .IdUniversite{
+        margin-left: 10%;
+    }
+}
+.ecole img, .universite img{
+    width: 10em;
+    height: 10em;
+}
+.ecole img{
+
+    height: 8.5em;
+}
+.ecole{
+    padding-top: 1em;
+}
+.communiquer{
+    text-decoration: none;
+    color: #000;
+    width: 99%;
+    margin: 5px 5px 5px 5px;
+    /*height: 25em;*/
+    padding: 10px;
+    /*border: 1.5px solid gray;*/
+    border-radius: 4px;
+    background-color: white;
+}
+.pub-title{
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.msg{
+    margin-bottom: 0;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    text-align: justify;
+}
+.pub-date{
+    opacity: 55%;
+}
+.pub-author{
+    float: right;
+    opacity: 55%;
+}
+.color-author{
+    color: rgb(188,28,72);
+}
+.communiquer p:last-of-type{
+    margin-bottom: 0;
+}
+
+.miniCommuniquer{
+    text-decoration: none;
+    color: #000;
+    width: 50%;
+    margin: 5px 5px 5px 5px;
+    height: 25em;
+    padding: 10px;
+    border: 1.5px solid gray;
+    border-radius: 4px;
+    flex-direction: column;
+    overflow-x: auto;
+}
+.MiniComBoite{
+    display: flex;
+}
+
+
+
+
+/*a revoir*/
+.InfoDeroulant{
+    text-decoration: none;
+    color: #000;
+    width: 9em;
+    margin: 5px 5px 5px 5px;
+    height: 5em;
+    background-color: white;
+    /*border: 1.5px solid gray;*/
+    border-radius: 4px;
+    overflow: hidden;
+    padding-top: 1.5em;
+    padding-left: 99%;  
+    text-align: center;
+    background-image: url("../img/covid.jpg");
+    background-color: rgba(0, 0, 0, 0.507);
+}
+.one{
+    background-color: rgba(0, 0, 0, 0.774);
+    border-radius: 4px;
+    padding-left: 0.2em;
+}
+.two{
+    color: white;
+    font-weight: bolder;
+    font-size:1.5em ;
+}
+.InfoDeroulant p{
+    font-weight: bold;
+    font-style: italic;
+}
+.InfoDeroulant > :first-child{
+    display: inline-block;
+    white-space: nowrap;
+    animation: defilement-rtl 15s infinite linear;
+}
+@keyframes defilement-rtl {
+    0% {
+      transform: translate3d(0,0,0);      /* position initiale à droite */
+    }
+    100% {
+      transform: translate3d(-100%,0,0);  /* position finale à gauche */
+    }
+  }
+.resp-i{
+    position: relative;
+    background: none;
+    width: 2em;
+    height: 2em;
+    border: none;
+}
+.icon-trash{
+    position: absolute;
+    background-color: rgb(188,28,72);
+    padding: 0.5em;
+    color: white;
+    border-radius: 4px;
+    display: inline;
+}
+.bloc-i{
+    float: right;
+    position: relative;
+    top: -1.8em;
+}
+.shadow-input-i{
+    width: 2.5em;
+    display: none;
+}
+.resp-i{
+    display: inline;
+}

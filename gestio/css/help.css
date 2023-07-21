@@ -1,0 +1,25 @@
+h4{
+    /*border-radius: 25%;*/
+    border:  2px solid black;
+    width: 100%;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    border-radius: 5px;
+    padding: 5px;
+} 
+#entete{
+    font-size: 2em;
+}
+.lien
+{
+	font-size: 1.5em;
+	font-weight: bold;
+}
+.fin{
+	font-size: 1.3em;
+	text-align: center;
+	margin-bottom: 40px;
+}
+.BoiteUE{
+    padding-left: 0.5em;
+}

@@ -1,0 +1,25 @@
+Les menbres de l'administration:
+     ADM#001 ALASSANE Nassym
+     Mot de passe: nasso45
+
+Les profs:
+
+PRF#001 GANTUA Flobert 
+   Mot de passe:flob23
+   code_matiere:1
+   matiere:Analyse
+
+PRF#002 KPATI Jeudida 
+    mot de passe: jeudida22
+    code_matiere:2
+    matiere:Probabilité
+PRF#003 DAVAKAN Jeffrey
+   mot de passe: jeff1
+   code_matiere:3
+   matiere:Algebre
+   
+Etudiants:
+13384921 Waris
+     Mot de passe wari12
+13384922 Généreux
+     Mot de passe: inscrivez le ;

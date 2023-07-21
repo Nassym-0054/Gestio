@@ -1,0 +1,54 @@
+.login-popup {
+position: absolute;
+text-align: center;
+}
+.off
+{
+  font-size : 200%;
+  color : orange;
+}
+.form-popup {
+display: none;
+position: fixed;
+top : 30%;
+left : 50%;
+width : 60%;
+transform: translate(-40%,0%);
+border: 1px solid none;
+border-radius : 10px;
+padding : 10px;
+background-color: rgb(214, 208, 208);
+}
+.choice
+{
+  display : flex;
+}
+
+.form-container .btn {
+border : 1px solid rgb(46, 6, 110);
+color : rgb(46, 6, 110);
+margin : auto;
+padding : 7px 30px 7px 30px;
+text-align : center;
+}
+
+.form-container .btn:hover {
+background-color: rgb(46, 6, 110);
+color : whitesmoke;
+}
+.shadow-input{
+  display: none;
+}
+.choice form{
+  width: 50%;
+}
+@media screen and (max-width:620px){
+  .form-popup{
+    margin-left: -2em;
+  }
+}
+@media screen and (max-width:420px){
+  .form-popup{
+    margin-left: -1em;
+  }
+}

@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background: linear-gradient(to right,  rgba(69,54,121,0.8), rgba(188,28,72,0.8)),url('../img/back_first.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: sans-serif, ebrima;
+}
+.wrapper{
+    width: 90%;
+    margin: 0 auto;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    padding: 5em 0;
+
+}
+.entete-box{
+    display: none;
+}
+.insc{
+    position: relative;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient(to top,rgb(46, 6, 110),rgb(190, 38, 196));
+    width: 10em;
+}
+.insc i{
+    font-size: 4em;
+}
+.insc h1{
+    font-size: 16px;
+}
+.insc p{
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.box-insc{
+    padding: 4em;
+    background-color: whitesmoke;
+    width: auto;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.box-insc .bar{
+    width: 50px;
+    height: 4px;
+    border: none;
+    margin: 20px 0 15px 0px;
+    border-radius: 8px;
+    background-color: rgb(101, 6, 110);
+    
+}
+
+.formulaire{
+    /*display: flex;*/
+    width: 50em;
+    padding-left: 15%;
+    
+}
+.formulaire .group-1{
+    width: 80%;
+    padding: 10px;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.formulaire .group-1 label,.formulaire{
+    font-weight: bold;
+}
+.formulaire input{
+    margin: 10px 0 10px 0;
+    width: 100%;
+}
+.formulaire input{
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid grey;
+    padding: 10px 10px 10px 20px;
+}
+.formulaire select{
+    margin: 10px 0 10px 0;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid grey;
+    padding: 10px 10px 10px 20px;
+}
+
+.formulaire input:focus{
+    border: 1px solid rgb(166, 0, 216);
+}
+.formulaire span{
+    font-weight: normal;
+    font-size: 0.8em;
+    position: relative;
+    bottom: 7px;
+}
+.group-2{
+    display: block;
+    height: 3em;
+    /*background-color: aqua;*/
+    width: 80%;
+}
+.group-2 input{
+    position: relative;
+    width: 30%;
+    padding: 10px 10px;
+    border-radius: 5px;
+    background-color:rgb(101, 6, 110);
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    float: right;
+    top: -1.8em;
+    margin-right: 0.6em;
+}
+.group-2 p{
+    position: relative;
+    top: 0.8em;
+    left: 0.6em;
+}
+
+@media (max-width: 1200px){
+    .formulaire{
+        width: 40em;
+        justify-content: center;
+        position: relative;
+        /*display: flex;*/
+        padding-left: 1%;
+    }
+    .formulaire .group-1{
+        width: 100%;
+        
+    }
+    .formulaire .group-2{
+        width: 100%;
+    }
+    .entete-box{
+        text-align: center;
+        display: block;
+        padding: 15px 0;
+        border: none;
+        border-radius: 8px 8px 0 0;
+        background:linear-gradient(to right,rgb(190, 38, 196),rgb(46, 6, 110));
+
+    }
+    .entete-box i{
+        font-size: 4em;
+        color: rgb(255, 255, 255);
+    }
+    .entete-box span:first-of-type{
+        font-size: 3em;
+        color: rgb(255, 255, 255);
+        position: relative;
+        bottom: 6px;
+    }
+    body{
+        justify-content: center;
+        display: flex;
+        overflow-y: auto;
+    }   
+    .container{
+        margin: 3em 0;
+        flex-direction: column;
+        position: initial;
+        transform: initial;         
+    }
+    .insc{
+        display: none;
+    }
+    .box-insc{
+        width: 100%;
+        border-radius: 0 0 8px 8px;
+    }
+    
+    .box-insc p{
+        position: relative;
+        top: 10px;
+    }
+}
+
+@media (max-width: 952px){/*50em*/
+        body{
+        left: 5%;
+        right: 5%;
+    }  
+    .container{
+        
+    }
+    .box-insc .bar{
+        display: none;   
+    }
+    .formulaire{
+        width: 20em;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .formulaire .group-2{
+        margin: initial;
+    }
+    .group-2 input{
+        position: relative;
+        width: 94%;
+        padding: 10px 10px;
+        border-radius: 5px;
+        background-color:rgb(101, 6, 110);
+        border: none;
+        color: white;
+        cursor: pointer;
+        font-weight: bold;
+        float: right;
+        top: -1.8em;
+        margin-right: 0.6em;
+    }
+    .group-2 p{
+        position: relative;
+        top: 3.5em;
+        left: 0.6em;
+    }
+    
+}

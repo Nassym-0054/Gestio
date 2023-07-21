@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background: linear-gradient(to right, rgba(69, 54, 121, 0.8), rgba(188, 28, 72, 0.8)), url('../img/back_first.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: ebrima, sans-serif;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.container {
+    justify-content: center;
+    display: flex;
+    padding: 6em 0;
+    /*     position: absolute;
+    top: 50%;
+    transform: translateY(-50%); */
+}
+
+.entete_logo {
+    display: none;
+}
+
+.desc {
+    position: relative;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    color: white;
+    padding: 8em 4em;
+    text-align: center;
+    background: linear-gradient(to top, rgb(46, 6, 110), rgb(190, 38, 196));
+    width: 50%;
+}
+
+.desc i {
+    font-size: 9em;
+}
+
+.desc h1 {
+    font-size: 3em;
+    letter-spacing: 5px;
+}
+
+.desc p {
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.log {
+    padding: 8em 4em;
+    text-align: center;
+    background-color: whitesmoke;
+    width: 30%;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.log h3 {
+    margin-top: 1em;
+    margin-bottom: 25px;
+}
+
+.log i {
+    font-size: 4em;
+    color: rgb(93, 20, 122);
+}
+
+.log p:first-of-type {
+    width: 70%;
+    margin: 20px auto;
+}
+
+.log span:first-of-type {
+    font-size: 3em;
+    color: rgb(170, 84, 173);
+    position: relative;
+    bottom: 6px;
+}
+
+.log form input {
+    width: 100%;
+    outline: none;
+    margin-bottom: 20px;
+    border-radius: 60px;
+    border: 2px solid rgb(101, 6, 110);
+    padding: 20px 10px;
+    background-color: whitesmoke;
+    color: rgb(101, 6, 110);
+}
+
+.test1 input {
+    color: white !important;
+}
+
+.log form input {
+    background-color: rgb(101, 6, 110);
+    color: black;
+}
+
+.log form input[type="checkbox"] {
+    width: initial;
+    position: relative;
+    top: 1px;
+}
+
+.log .connexion input {
+    width: 100%;
+    outline: none;
+    margin-bottom: 20px;
+    border-radius: 60px;
+    border: 1px solid grey;
+    padding: 14px;
+}
+
+.log .optionDeConnexion input {
+    width: 100%;
+    /*outline: none;*/
+    margin-bottom: 20px;
+    border-radius: 60px;
+    /*border: 1px solid grey;*/
+    padding: 14px;
+}
+
+.log .connexion input:hover {
+    transition: .3s;
+    background-color: rgb(85, 5, 92);
+}
+
+.log .optionDeConnexion input:hover {
+    transition: .3s;
+    background-color: rgb(85, 5, 92);
+}
+
+.log .connexion input:focus {
+    border: 1px solid rgb(166, 0, 216);
+}
+
+.log .connexion input[type="text"],
+.log .connexion input[type="password"] {
+    padding-left: 25px;
+    background-color: whitesmoke;
+}
+
+.log .connexion input:last-of-type {
+    border-radius: 60px;
+    background-color: rgb(101, 6, 110);
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 20px 10px;
+}
+
+.log a {
+    color: rgb(166, 0, 216);
+}
+
+.log a:last-of-type {
+    text-decoration: underline;
+}
+
+/* 
+@media (max-width: 1200px){
+    .desc{
+        width: 30%;
+    }
+} */
+@media (max-width: 900px) {
+
+    /*50em*/
+    .entete_logo {
+        display: none;
+        text-align: center;
+        padding: 15px 0;
+        border: none;
+        border-radius: 8px 8px 0 0;
+        background: linear-gradient(to right, rgb(190, 38, 196), rgb(46, 6, 110));
+    }
+
+    .entete_logo i {
+        font-size: 4em;
+        color: rgb(255, 255, 255);
+    }
+
+    .entete_logo span:first-of-type {
+        font-size: 3em;
+        color: rgb(255, 255, 255);
+        position: relative;
+        bottom: 6px;
+    }
+
+    .log form input {
+        margin-bottom: 20px;
+    }
+
+    .log i,
+    .log span:first-of-type {
+        display: none;
+    }
+
+    .log {
+        padding: 0em 4em 4em 4em;
+        border-radius: 0 0 8px 8px;
+    }
+
+    .log h3 {
+        margin-bottom: 2em;
+    }
+
+    body {
+        justify-content: center;
+        display: flex;
+
+    }
+
+    .container {
+
+        flex-direction: column;
+        position: initial;
+        top: initial;
+        transform: initial;
+
+    }
+
+    .desc {
+        display: block;
+        width: 100%;
+        height: 60%;
+
+    }
+
+    .log {
+        width: 100%;
+    }
+}
+
+@media (max-width: 952px) {
+
+    /*50em*/
+    body {
+        left: 5%;
+        right: 5%;
+    }
+}
